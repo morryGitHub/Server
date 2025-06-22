@@ -1,8 +1,7 @@
 #!/bin/sh
 
 ./telegram-bot-api \
-  --api-id=$API_ID \
-  --api-hash=$API_HASH \
+  --api-id=123456 \
+  --api-hash=abc123yourapihash \
   --dir=/data \
-  --http-port=8081 \
-  --log=log.txt
+  --http-port=8081
